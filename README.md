@@ -1,0 +1,3 @@
+# TypeScript Type Error: Passing Array to Function Expecting String
+
+This repository demonstrates a common type error in TypeScript. The `greeter` function expects a string argument, but an array of strings is passed to it, causing a runtime error.  The solution shows how to correctly handle the array input by either iterating over it or using a type assertion (although this is generally discouraged).
